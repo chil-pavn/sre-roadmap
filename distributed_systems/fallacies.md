@@ -32,47 +32,47 @@
 
 # Key Points to keep in mind to counter the above fallacies:
 
-*_TCP Throughput and Bandwidth Limitations:_
+* _TCP Throughput and Bandwidth Limitations:_
 - TCP throughput is bounded by factors like round trip time, packet loss, and frame size.
 - Bandwidth limitations necessitate limiting the size of data sent over the network.
 
-*_Network Security Fallacies and Statistics:_
+* _Network Security Fallacies and Statistics:_
 - Network security fallacies persist despite widespread acknowledgment of its importance.
 - Statistics reveal ongoing challenges in maintaining network security.
 
-*_Implications of Network (In)Security:_
+* _Implications of Network (In)Security:_
 - Security needs to be integrated into architectural planning from the start.
 - Threat modeling and risk evaluation are essential in determining security measures.
 
-*_Network Topology and Application Dependencies:_
+* _Network Topology and Application Dependencies:_
 - Network topology changes frequently in production environments.
 - Applications should avoid depending on specific endpoints or routes and consider location transparency.
 
-*_Challenges of Multiple Administrators:_
+* _Challenges of Multiple Administrators:_
 - Enterprise systems often involve multiple administrators with differing expertise and agendas.
 - In situations involving external entities or services, administrators may not be under the application owner's control.
 
-*_Need for Problem Identification and Solutions:_
+* _Need for Problem Identification and Solutions:_
 - Identifying and solving problems in distributed systems is crucial for successful application deployment.
 - Changes in hosting services may require reworking applications to ensure compatibility.
 
-*_Administrator Tools and Proactive Monitoring:_
+* _Administrator Tools and Proactive Monitoring:_
 - Providing administrators with diagnostic tools is essential for problem identification and resolution.
 - Including monitoring tools allows for early problem detection and preventing system failures.
 
-*_Challenges with Multiple Administrators:_
+* _Challenges with Multiple Administrators:_
 - Multiple administrators can limit application options and need effective management support.
 - Considerations for upgrades and backward/forward compatibility are essential in multi-administrator environments.
 
-*_Transport Cost Fallacy:_
+* _Transport Cost Fallacy:_
 - The fallacy of zero transport cost is debunked, emphasizing the need to consider costs for network operation and maintenance.
 - Even existing solutions may be constrained by the costs involved, underscoring the importance of cost-effective problem-solving.
 
-*_Heterogeneity of Networks:_
+* _Heterogeneity of Networks:_
 - Assuming network homogeneity is a fallacy, necessitating readiness for interoperability and support for standard technologies.
 - Consideration of proprietary protocols and transports should be approached with caution in heterogeneous enterprise environments.
 
-*_Persistent Challenges in Distributed Systems:_
+* _Persistent Challenges in Distributed Systems:_
 - Despite advancements in technology, the underlying problems and characteristics of distributed systems remain largely unchanged.
 - Neglecting the issues covered by the fallacies can lead to problems resurfacing and impacting application stability.
 
