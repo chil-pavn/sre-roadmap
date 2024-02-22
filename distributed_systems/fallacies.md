@@ -79,6 +79,14 @@ Persistent Challenges in Distributed Systems:
 
 References:
 
+https://architecturenotes.co/fallacies-of-distributed-systems/
+
 [Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing#:~:text=The%20fallacies%20of%20distributed%20computing,to%20distributed%20applications%20invariably%20make)
 
 [Research Gate](https://www.researchgate.net/publication/322500050_Fallacies_of_Distributed_Computing_Explained/link/5a5c8391aca2727d608a8830/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19)
+
+[Ably](https://ably.com/blog/8-fallacies-of-distributed-computing)
+
+[Medium] (https://medium.com/geekculture/the-eight-fallacies-of-distributed-computing-44d766345ddb)
+
+[Oracle] (https://blogs.oracle.com/developers/post/fallacies-of-distributed-systems)
