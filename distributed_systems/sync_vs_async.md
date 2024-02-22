@@ -6,14 +6,9 @@ In asynchronous communication between systems, the caller sends a message and co
 
 | Synchronous | Asynchronous |
 | -------- | -------- |
-| Intuitive
-Synchronous systems are well understood and easy to implement. You either get an answer in a timely manner or you need to handle an error, which is easy to reason about. | Loosely coupled
-Consumers and producers are by definition decoupled. The message broker sitting between the services makes it possible for the services to not know about each other while handling all the routing and persistence of messages. |
-| No additional complexity
-Synchronous communication doesn't require additional components (like message brokers) to handle communication, so there is no extra complexity of deploying and operating additional components..| Resilient
-Decoupled services work independently and failure in one doesn’t cause a failure in another. The client of the service won’t be immediately affected. This makes it easier to achieve high-availability of mission-critical systems. |
-|        | Easily scalable
-Asynchronous services tend to consume less resources and components in microservices architecture tend to do one thing only. These facts combined with sharding at the message broker level make asynchronous messaging integrations the most viable option for scaling. |
+| Intuitive, Synchronous systems are well understood and easy to implement. You either get an answer in a timely manner or you need to handle an error, which is easy to reason about. | Loosely coupled, Consumers and producers are by definition decoupled. The message broker sitting between the services makes it possible for the services to not know about each other while handling all the routing and persistence of messages. |
+| No additional complexity, Synchronous communication doesn't require additional components (like message brokers) to handle communication, so there is no extra complexity of deploying and operating additional components..| Resilient, Decoupled services work independently and failure in one doesn’t cause a failure in another. The client of the service won’t be immediately affected. This makes it easier to achieve high-availability of mission-critical systems. |
+|        | Easily scalable, Asynchronous services tend to consume less resources and components in microservices architecture tend to do one thing only. These facts combined with sharding at the message broker level make asynchronous messaging integrations the most viable option for scaling. |
 
 References:
 
